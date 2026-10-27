@@ -53,8 +53,8 @@ export default function ContactSection() {
               WhatsApp para falar diretamente com a equipe.
             </p>
 
-            /* {/* Aviso de configuração */}
-            {!configured && (
+             {/* Aviso de configuração */}
+           {/* {!configured && (
               <div className="mt-6 flex items-start gap-3 rounded-xl border border-amber-200 bg-amber-50 p-4">
                 <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-600" />
                 <div>
@@ -65,12 +65,12 @@ export default function ContactSection() {
                     O número de WhatsApp precisa ser cadastrado em{' '}
                     <code className="rounded bg-amber-100 px-1 py-0.5">
                       src/config/business.ts
-                    </code>{' '}
+                     </code>{' '}
                     antes da publicação do site.
                   </p>
                 </div>
-              </div>
-            )} */
+              </div> 
+            )} */}
 
             {/* Botões de contato rápido */}
             <div className="mt-8 flex flex-col gap-3">
